@@ -1,0 +1,11 @@
+name: qbert
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pytorch
+  - pip
+  - pip:
+    - arcade
+    - pygad
